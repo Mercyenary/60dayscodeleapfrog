@@ -8,5 +8,6 @@ Learn Git and JavaScript and be better.
 join me in this journey.
 
 
-#🚀 Come Along!
+🚀 Come Along!
+
 Feel free to join in, give feedback, or contribute. Let's learn together and make these 60 days awesome!
