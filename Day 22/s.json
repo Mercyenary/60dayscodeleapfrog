@@ -1,0 +1,33 @@
+{
+    "library": {
+      "name": "novel",
+      "location": "chtwn",
+      "books": [
+        {
+          "title": "चिना हराएको मान्छे",
+          "author": "हरिवंश आचार्य",
+          "publishedYear": 2013,
+          "available": true
+        },
+        {
+          "title": "सेतो धरती ",
+          "author": "अमर न्यौपाने",
+          "publishedYear": 2012,
+          "available": false
+        }
+      ],
+      "members": [
+        {
+          "name": "Mercenary",
+          "membershipType": "Gold",
+          "borrowedBooks": ["सेतो धरती "]
+        },
+        {
+          "name": "Leapfrog",
+          "membershipType": "Silver",
+          "borrowedBooks": ["चिना हराएको मान्छे"]
+        }
+      ]
+    }
+  }
+  

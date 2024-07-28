@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./style.css" />
+        <link rel="shortcut icon" type="x-icon" href="images.png">
+        <title>NepaLens x Leapfrog</title>
+    </head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images.png" alt="Logo">
+        </div>
+        <div class="header-content">
+            <h1>NepaLens x Leapfrog</h1>
+        </div>
+        <form class="search-form">
+            <input type="text" class="search-input" placeholder="Search for photos or videos...">
+        </form>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#photos" class="nav-link">Photos</a></li>
+                <li><a href="#videos" class="nav-link">Videos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="photos" class="gallery">
+            <h2>Photos</h2>
+            <div class="photo-gallery"></div>
+        </section>
+        <section id="videos" class="gallery">
+            <h2>Videos</h2>
+            <div class="video-gallery"></div>
+        </section>
+        <button class="more">Load More</button>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>

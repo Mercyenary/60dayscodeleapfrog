@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leapfrog</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Abril+Fatface|Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body data-barba="wrapper">
+    <header class="nav-header">
+      <h1><a href="./index.html" id="logo">Mercy X Leapfrog.</a></h1>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+      </div>
+    </header>
+    <main data-barba="container" data-barba-namespace="home">
+      <section class="mountain slide">
+        <div class="hero-img">
+          <img src="./img/Nepal_Blog_Post (1).jpg" alt="forest image" />
+          <div class="reveal-img"></div>
+        </div>
+        <div class="hero-desc">
+          <div class="title">
+            <h2>
+              Discover Nepal's <span class="mountain-span">Natural Wonders.</span>
+            </h2>
+            <div class="title-swipe t-swipe1"></div>
+          </div>
+          <p>
+            Experience the majestic beauty of Nepal, where every corner offers a breathtaking view. 
+            From the towering Himalayas to serene lakes and lush forests, 
+            Nepal is a land of unparalleled beauty and adventure.
+          </p>
+          <a class="explore mountain-exp">Explore</a>
+          <div class="reveal-text"></div>
+        </div>
+      </section>
+      <section class="hike slide">
+        <div class="hero-img">
+          <img src="./img/chitwan (1) (1).jpg" alt="hike image" />
+          <div class="reveal-img"></div>
+        </div>
+        <div class="hero-desc">
+          <div class="title">
+            <h2>Experience the Wonders of  <span class="hike-span">Chitwan.</span></h2>
+            <div class="title-swipe t-swipe2"></div>
+          </div>
+          <p>
+            Explore the lush landscapes of Chitwan National Park, a haven for wildlife enthusiasts. 
+            Take a jungle safari to spot rhinos, tigers, and diverse bird species, or enjoy a tranquil canoe ride along the Rapti River.
+          </p>
+          <a class="explore hike-exp">Explore</a>
+          <div class="reveal-text"></div>
+        </div>
+      </section>
+      <section class="fashion slide">
+        <div class="hero-img">
+          <img src="./img/ktm (1).jpg" alt="fashion image" />
+          <div class="reveal-img"></div>
+        </div>
+        <div class="hero-desc">
+          <div class="title">
+            <h2>
+              Immerse Yourself in <span class="fashion-span">Kathmandu's Culture .</span>
+            </h2>
+            <div class="title-swipe t-swipe3"></div>
+          </div>
+          <p>
+            Dive into the heart of Kathmandu, where ancient temples, bustling bazaars, and historic palaces tell the stories of Nepal's rich heritage. 
+            Experience the vibrant culture and warmth of the Nepali people as you wander through this dynamic city.
+          </p>
+          <a href="./fashion/index.html" class="explore fashion-exp">Explore</a>
+          <div class="reveal-text"></div>
+        </div>
+      </section>
+      <section class="fashion slide">
+        <div class="hero-img">
+          <img src="./img/pokhara 2.jpg" alt="fashion image" />
+          <div class="reveal-img"></div>
+        </div>
+        <div class="hero-desc">
+          <div class="title">
+            <h2>
+              Experience the Charm of  <span class="fashion-span">Pokhara.</span>
+            </h2>
+            <div class="title-swipe t-swipe3"></div>
+          </div>
+          <p>
+            Visit Pokhara, a city of lakes and legends. 
+            Enjoy a serene boat ride on Phewa Lake, take in panoramic views of the Himalayas, and explore the vibrant local markets and charming cafes.
+          </p>
+          <a href="./fashion/index.html" class="explore fashion-exp">Explore</a>
+          <div class="reveal-text"></div>
+        </div>
+      </section>
+    </main>
+    <nav class="nav-bar">
+      <ul class="nav-links">
+        <h3>Twitter</h3>
+        <h3>Youtube</h3>
+        <h3>Instagram</h3>
+      </ul>
+      <div class="contact">
+        <h2>Stay in touch.</h2>
+        <p>
+          We'd love to hear from you! Whether you have questions, 
+          feedback, or just want to share your travel experiences in Nepal,feel free to reach out. 
+           Connect with us and let's explore the beauty of Nepal together.
+        </p>
+      </div>
+    </nav>
+    <div class="cursor">
+      <span class="cursor-text"></span>
+    </div>
+    <div class="swipe swipe1"></div>
+    <div class="swipe swipe2"></div>
+    <div class="swipe swipe3"></div>
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"
+      integrity="sha256-2p2tRZlPowp3P/04Pw2rqVCSbhyV/IB7ZEVUglrDS/c="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"
+      integrity="sha256-XBVALc3QsDSQiDtiaBwNZ2rxCJTHzlUhhlDQ84J8bw8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"
+      integrity="sha256-+9YNuItWuR4sbqeaNiJOxG0BvptYz4fbUXbIZoH5Jwo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"
+      integrity="sha256-3arngJBQR3FTyeRtL3muAGFaGcL8iHsubYOqq48mBLw="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
