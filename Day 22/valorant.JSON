@@ -1,0 +1,72 @@
+{
+    "game": "Valorant",
+    "developer": "Riot Games",
+    "agents": [
+      {
+        "name": "Jett",
+        "role": "Duelist",
+        "abilities": [
+          {
+            "abilityname": "Cloudburst",
+            "type": "Utility"
+          },
+          {
+            "abilityname": "Updraft",
+            "type": "Mobility"
+          },
+          {
+            "abilityname": "Tailwind",
+            "type": "Mobility"
+          },
+          {
+            "abilityname": "Blade Storm",
+            "type": "Ultimate"
+          }
+        ]
+      },
+      {
+        "name": "Cypher",
+        "role": "Sentinel",
+        "abilities": [
+          {
+            "abilityname": "Trapwire",
+            "type": "Utility"
+          },
+          {
+            "abilityname": "Cyber Cage",
+            "type": "Utility"
+          },
+          {
+            "abilityname": "Spycam ",
+            "type": "Support"
+          },
+          {
+            "abilityname": "Neural Theft",
+            "type": "Ultimate"
+          }
+        ]
+      }
+    ],
+    "maps": [
+      {
+        "name": "Bind",
+        "type": "Bomb Plant",
+        "locations": [
+          "A Site",
+          "B Site",
+          "Mid"
+        ]
+      },
+      {
+        "name": "Haven",
+        "type": "Bomb Plant",
+        "locations": [
+          "A Site",
+          "B Site",
+          "C Site",
+          "Mid"
+        ]
+      }
+    ]
+  }
+  

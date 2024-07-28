@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f5e9; /* Light green background */
+    color: #2e7d32; /* Dark green text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff; /* White background for the container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+
+.glowing-text {
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 0 0 5px #FF10F0, 0 0 10px #FF10F0, 0 0 15px #FF10F0, 0 0 20px #FF10F0, 0 0 25px #FF10F0, 0 0 30px #FF10F0, 0 0 35px #FF10F0;
+    animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 5px #FF10F0, 0 0 10px #FF10F0, 0 0 15px #FF10F0, 0 0 20px #FF10F0, 0 0 25px #FF10F0, 0 0 30px #FF10F0, 0 0 35px #FF10F0;
+    }
+    to {
+        text-shadow: 0 0 5px #1F51FF, 0 0 10px #1F51FF, 0 0 20px #1F51FF, 0 0 30px #1F51FF, 0 0 40px #1F51FF, 0 0 50px #1F51FF, 0 0 70px #1F51FF        ;
+    }
+}
+h1 {
+    color: #388e3c;
+}
+
+input[type="file"], button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #81c784; 
+    border-radius: 4px;
+}
+
+input[type="file"] {
+    background-color: #c8e6c9; /* Light green background for input */
+}
+
+button {
+    background-color: #66bb6a; /* Light green background for button */
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4caf50; /* Slightly darker green on hover */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #a5d6a7; /* Light green background for list items */
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+audio {
+    width: 100%;
+    margin-top: 10px;
+}
+
+a {
+    color: #2e7d32; /* Dark green for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
